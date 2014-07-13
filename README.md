@@ -3,7 +3,7 @@ scrivener-asciidoc
 
 A Scrivener compile format and some scripts to produce AsciiDoc.
 
-# Reason for existing
+## Reason for existing
 
 I used these scripts when working on the Learning MCollective book for O'Reilly Media.
     http://shop.oreilly.com/product/0636920032472.do
@@ -14,7 +14,7 @@ I created a compile format which set up chapter headings correctly with a link t
 them as recommended. Then I wrote some scripts to process the output from Scrivener to 
 make AsciiDoc in the exact flavor that O'Reilly wanted.
 
-# Requirements
+## Requirements
 
 * **MacPorts** http://www.macports.org/install.php
 * **asciidoc** and **docbook-xml** ports
@@ -23,7 +23,7 @@ make AsciiDoc in the exact flavor that O'Reilly wanted.
 $ sudo port install asciidoc docbook-xml
 ```
 
-# How to Use
+## How to Use
 
 1. Install AsciiDoc.plist in ~/Library/Application Support/Scrivener/CompileSettings/
 2. Install the remaining scripts anywhere you want
@@ -33,7 +33,7 @@ $ sudo port install asciidoc docbook-xml
 $ /usr/local/scrivener-asciidoc/process.sh MyBook.scrivdoc MyBook.asciidoc
 ```
 
-# Future Plans
+## Future Plans
 
 None at this time. O'Reilly is shifting towards HTMLBook format as their standard, and I'm
 writing my next book in that format. I don't see using these in the future.
