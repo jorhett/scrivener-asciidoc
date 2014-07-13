@@ -10,9 +10,9 @@ I used these scripts when working on the Learning MCollective book for O'Reilly 
 
 My favorite writing tool is Scrivener http://www.literatureandlatte.com/scrivener.php
 
-I created a compile format which set up chapter headings correctly with a link target above
-them as recommended. Then I wrote some scripts to process the output from Scrivener to 
-make AsciiDoc in the exact flavor that O'Reilly wanted.
+I created a Scrivener compile format which set up chapter headings correctly with a link 
+target above them as recommended. Then I wrote some scripts to process the output from 
+Scrivener compile to make AsciiDoc in the flavor that O'Reilly wanted.
 
 ## Requirements
 
@@ -25,7 +25,7 @@ $ sudo port install asciidoc docbook-xml
 
 ## How to Use
 
-1. Install AsciiDoc.plist in ~/Library/Application Support/Scrivener/CompileSettings/
+1. Install `AsciiDoc.plist` in `~/Library/Application Support/Scrivener/CompileSettings/`
 2. Install the remaining scripts anywhere you want
 3. Run process.sh with the name of the Scrivener output file and your intended asciidoc target name  
 
